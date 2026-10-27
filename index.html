@@ -1,13 +1,70 @@
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
+    <!-- Codificación y visualización adaptable -->
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <!-- SEO principal -->
+    <title>Rick & Morty Explorer | Explora el multiverso</title>
+
+    <meta
+      name="description"
+      content="Explora el universo de Rick y Morty. Descubre personajes, busca por nombre, filtra por estado y especie, guarda favoritos y conoce sus dimensiones."
+    />
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large"
+    />
+
+    <meta name="author" content="Rick & Morty Explorer" />
+    <meta name="theme-color" content="#080d12" />
+
+    <!-- Idioma y versión canónica -->
+    <link rel="alternate" hreflang="es" href="./" />
+
+    <!-- Icono del sitio -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>t1_react</title>
+
+    <!-- Open Graph: vista previa al compartir -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Rick & Morty Explorer | Explora el multiverso"
+    />
+    <meta
+      property="og:description"
+      content="Descubre personajes, explora dimensiones y encuentra tus favoritos en el universo de Rick y Morty."
+    />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:site_name" content="Rick & Morty Explorer" />
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Rick & Morty Explorer"
+    />
+    <meta
+      name="twitter:description"
+      content="Explora personajes y dimensiones del universo de Rick y Morty."
+    />
   </head>
+
   <body>
+    <!-- Mensaje accesible si JavaScript está desactivado -->
+    <noscript>
+      Esta aplicación necesita JavaScript activado para funcionar.
+    </noscript>
+
+    <!-- Punto de entrada de React -->
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
